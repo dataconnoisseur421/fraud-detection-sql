@@ -7,7 +7,6 @@ This project is a SQL-driven fraud detection system designed to identify suspici
 ## 📁 Project Structure
 - `Fraud_DB/`: Contains the full database schema and sample data.
 - `fraud-rules/`: Contains SQL scripts for detecting different types of fraud.
-- `procedures/`: (Optional) Stored procedures for automating fraud checks.
 - `README.md`: Project overview and instructions.
 
 ---
@@ -56,13 +55,11 @@ This project is a SQL-driven fraud detection system designed to identify suspici
 2. Set up the `Fraud_DB` schema in MySQL Workbench.
 3. Insert sample data into the tables provided.
 4. Run the SQL scripts under `fraud-rules/` individually to detect different fraud types.
-5. (Optional) Create and call stored procedures for automated rule scanning.
 
 ---
 
 ## 📈 Future Improvements
 - Automate rule execution with stored procedures and scheduled events.
-- Expand to include machine learning-based anomaly detection.
 - Add real-world data integration.
 - Visualize fraud detection results using Tableau or Power BI dashboards.
 
